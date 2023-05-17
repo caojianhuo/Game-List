@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cao JIanhuo Game</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<!--
+    <audio src="{{ url_for('static', filename='music/background.mp3') }}" autoplay loop></audio>
+    <img src="{{ url_for('static', filename='images/background.gif') }}" alt="Background" class="gif-image">
+    <video autoplay muted loop>
+        <source src="{{ url_for('static', filename='videos/background.mp4') }}" type="video/mp4">
+    </video>  
+-->
+    <img src="{{ url_for('static', filename='images/background.png') }}" alt="Background" class="img">
+    <img src="{{ url_for('static', filename='images/background.gif') }}" alt="Background" class="gif-image">
+<!--
+    <video autoplay muted loop>
+        <source src="{{ url_for('static', filename='videos/background.mp4') }}" type="video/mp4">
+    </video>
+-->
+    <h1>Game List</h1>
+    <h2>1.Rock-Paper-Scissors(剪刀石头布)</h2>
+    <a href="/404" class="btn">Play It</a>
+</body>
+</html>
